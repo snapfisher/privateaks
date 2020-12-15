@@ -6,7 +6,7 @@ on:
     inputs:
       AZURE_AKS_RG: 
         description: 'AKS Resource Group'
-        default: 'privateaks-larry'
+        default: 'privateaks1'
         required: true
       AZURE_AKS_NAME: 
         description: 'Name of AKS Cluster'
